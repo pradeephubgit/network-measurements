@@ -59,4 +59,5 @@ After you read the [documentation](https://alexmarder.github.io/ip2as/) of `ip2a
 1. Extract Origin ASes from RIBs
 
 ```
+ python3 prefixes.py -r ../retrieve-external/rirs.20200827.txt -p 4 -o ribs.prefixes
 ```
