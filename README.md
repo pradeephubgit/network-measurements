@@ -24,3 +24,20 @@ For example, the following command will download BGP RIBs for the period August 
 python3 retrieve.py -b 20200826 -e 20200827 -d ribs bgp
 ```
 
+2. Download the extended RIR delegation files, which map the assigment of IP prefixes and ASNs to organizations based on RIR data and can be used to map prefixes to ASNs even if a prefix is not visible in the global routing table. 
+
+```
+python3 retrieve.py -b 20200826 -e 20200827 -d rirs rir
+```
+
+3. Download the AS relationships, which can help to resolve inconsistencies in the BGP prefix advertisments
+
+```
+python3 retrieve.py -b 20200826 -e 20200827 -d rels rels
+```
+
+4. Download PeeringDB files which list the ASNs and IP prefixes are used by IXP peering LANs 
+
+```
+python3 retrieve.py -b 20200826 -e 20200827 -d ixps peeringdb
+```
