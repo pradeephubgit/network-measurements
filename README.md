@@ -15,6 +15,7 @@
 
 1. Clone the [`ip2as`](https://github.com/alexmarder/ip2as) repository which includes scripts to generate the IP-to-ASN mapping based on the downloaded routing data.
 
+1. Download and install [bgpstream v1.2.3](https://github.com/CAIDA/bgpstream)
 
 ## Generate the mapping of IP prefixes to ASNs
 
