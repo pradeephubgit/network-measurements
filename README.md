@@ -33,7 +33,7 @@ docker run \
 --env ES_USER=vgiotsas \
 --env ES_PW=<my_password> \
 --env ES_URL="https://search-observatory-bn4ftthzrkyzsbnkye5tnoqsbm.eu-west-1.es.amazonaws.com/observatory/_doc" \
---name test-crawler-image ipfs-crawler
+--name test-crawler-image vgiotsas/ipfs-crawler
 ```
 
 3. Check that the crawler runs and that the output is uploaded in your S3 bucket
