@@ -25,7 +25,6 @@ if keypath and len(public_ips) > 0:
         os.makedirs('ansible')
 
     # Create the ansible hosts file
-    with open("ansible/hosts", "wt") as fout:
-        fout.write("[probes]\n")
+    with open("ansible/hosts", "at") as fout:
         for ip in public_ips:
-            fout.write("{} ansible_user=ubuntu ansible_ssh_private_key_file={}".format(ip, keypath))
+            fout.write("\n{} ansible_user=ubuntu ansible_ssh_private_key_file={}".format(ip, keypath))

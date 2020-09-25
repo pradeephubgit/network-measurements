@@ -61,7 +61,7 @@ resource "aws_instance" "observatory" {
 
 resource "null_resource" "cluster" {
   provisioner "local-exec" {
-    command = "./create_ansible_hosts.py"
+    command = "printf '[probes]' > ansible/hosts"
   }
 
 }
