@@ -10,11 +10,11 @@ In order to promote a healthy ecosystem of protocol developers, users and busine
 
 We believe that having the ability to get information from the real-time performance of the network will help tremendously in both real-time decision-making (e.g., request routing and forwarding) and in long-term protocol design (e.g., best ways to populate routing tables). Depending on the metric, or protocol setting identified, the methodologies laid out here fall, largely, into two categories: i) continuous probing, or ii) on-demand monitoring.
 
-There are numerous decentralized, P2P networks. This projoect focuses primarily on the Public IPFS Network. Follow-up iterations of the project will expand to libp2p-based networks more generally.
+There are numerous decentralized, P2P networks. This project focuses primarily on the Public IPFS Network. Follow-up iterations of the project will expand to libp2p-based networks more generally.
 
 ## How to use this repository
 
-**RFMs:** We organize work around Requests for Measurements (RFMs). RFMs are micro-projects that individuals or teams can take up and deliver. The [RFMs](RFMs.md) document containts the proposals for measurements that have been suggested so far and will be implemented as part of the IPFS Network Observatory.
+**RFMs:** We organize work around Requests for Measurements (RFMs). RFMs are micro-projects that individuals or teams can take up and deliver. The [RFMs](RFMs.md) document contains the proposals for measurements that have been suggested so far and will be implemented as part of the IPFS Network Observatory.
 
 **Results:** The results of this project are reported in the form of technical reports in the [Reports](reports/) folder. Each RFM, once completed, should be accompanied by one report to document the findings.
 
@@ -24,7 +24,7 @@ There are numerous decentralized, P2P networks. This projoect focuses primarily 
 - You can propose a new RFM if you have ideas about valuable things, even if you don't have the capacity to do the actual work. RFMs will be picked up by others, based on priorities.
 
 **Workflow:**
-- If your RFM is not already present in the list of existing [RFMs](RFMs.md), or if you want to modify an existing RFM, start a PR in this repo to propose it and include a description according to the RFM teamplate.
+- If your RFM is not already present in the list of existing [RFMs](RFMs.md), or if you want to modify an existing RFM, start a PR in this repo to propose it and include a description according to the RFM template.
 - If you prefer to discuss the RFM before starting a PR, or if the RFM you'd like to work on is already in the list, you can start an issue beforehand and then link to it from the PR.
 - The RFMs should move from `brainstorming`, to `draft` and then to `ongoing`. While in the `ongoing` phase there will likely need to be more issues and PRs associated with the initial RFM. All these should be grouped together under one `epic`.
 - These `epics` with their associated issues and PRs will be tracked in a GH Project Board.
